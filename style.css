@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+body{
+    background-image: linear-gradient(rgb(5, 5, 6),rgba(0, 0, 0, 0.985))
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(10, 34, 82, 0.7),rgba(4, 8, 14, 0.7)),url(./images/backround.jpg);
+    background-position: centre;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: centre;
+}
+.logo{
+    cursor: pointer;
+}
+.menu-icon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    margin-top: 17%;
+    height: 88%;
+    align-items: centre;
+    font-size: large;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color:aqua;
+    font-size: 250%;
+}
+h4{
+    color:rgb(132, 228, 255);
+    margin-top: 3%;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: rgb(0, 221, 255);
+    font-size: 17px;
+    padding: 12px 0;
+    background-color: black;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    transition: transform 0.5s;
+}
+button:hover{
+    transform: translateY(-10px);
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: -170px;
+    margin-bottom: 120px;
+    margin-right: -10px;
+    margin-left: 100px;
+    background-image: url(./images/the\ grid.jpg);
+    background-position: centre;
+    background-size: cover;
+    transition: transform 1s;
+}
+.card2{
+    background-image: url(./images/disk\ wars.png);
+}
+.card3{
+    background-image: url(./images/chase.jpg);
+}
+.card4{
+    background-image: url(./images/escape.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+    background: rgb(13, 224, 248);
+}
+h5{
+    color: white;
+    text-shadow: rgb(4, 4, 4);
+}
+p{
+    color: rgb(7, 7, 7);
+    font-size: 15px;
+}
+h3{
+    margin-top: 45%;
+    color: rgb(17, 206, 248);
+}
+.card5{
+    margin-top: 4%;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: centre;
+    background-size: cover;
+    transition: transform 1s;
+    background-image: url(./images/pic.jpeg);
+}
+.card5:hover{
+    transform: translateY(-10px);
+    width:120px;
+    height: 120px;
+}
